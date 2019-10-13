@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\Api\\Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\Mohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Mohit\\Documents\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Xml": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "geekcode.helper.jwt": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "geekcode.helper.model": {
+              "target": "Package",
+              "version": "[1.0.0.3, )"
+            },
+            "geekcode.helper.sqlef": {
+              "target": "Package",
+              "version": "[1.0.0.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

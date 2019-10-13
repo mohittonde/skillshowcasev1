@@ -1,0 +1,18 @@
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.deps.json
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.dll
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.pdb
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.csprojAssemblyReference.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.AssemblyInfoInputs.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.AssemblyInfo.cs
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.dll
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.pdb
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.deps.json
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.dll
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\bin\Debug\netcoreapp2.2\geekcode.helper.model.pdb
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.csprojAssemblyReference.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.AssemblyInfoInputs.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.AssemblyInfo.cs
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.dll
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.model\obj\Debug\netcoreapp2.2\geekcode.helper.model.pdb

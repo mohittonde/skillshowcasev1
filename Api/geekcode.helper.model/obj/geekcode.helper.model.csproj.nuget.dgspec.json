@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\geekcode.helper.model\\geekcode.helper.model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\geekcode.helper.model\\geekcode.helper.model.csproj": {
+      "version": "1.0.0.4",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\geekcode.helper.model\\geekcode.helper.model.csproj",
+        "projectName": "geekcode.helper.model",
+        "projectPath": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\geekcode.helper.model\\geekcode.helper.model.csproj",
+        "packagesPath": "C:\\Users\\Mohit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohit\\source\\DummyGit\\New folder\\dummyproject\\Api\\geekcode.helper.model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mohit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Mohit\\Documents\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

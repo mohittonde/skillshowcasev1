@@ -1,0 +1,18 @@
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.csprojAssemblyReference.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.deps.json
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.dll
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.AssemblyInfoInputs.cache
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.AssemblyInfo.cs
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.pdb
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.dll
+C:\Users\Mohit\source\repos\WebApplication5\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.pdb
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.deps.json
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.dll
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\bin\Debug\netcoreapp2.2\geekcode.helper.jwt.pdb
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.csprojAssemblyReference.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.csproj.CoreCompileInputs.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.AssemblyInfoInputs.cache
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.AssemblyInfo.cs
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.dll
+C:\Users\Mohit\source\DummyGit\New folder\dummyproject\Api\geekcode.helper.jwt\obj\Debug\netcoreapp2.2\geekcode.helper.jwt.pdb

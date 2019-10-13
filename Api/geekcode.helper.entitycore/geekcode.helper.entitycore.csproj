@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>geekcode.helper.sqlef</PackageId>
+    <Version>1.0.0.9</Version>
+    <Authors>tondem</Authors>
+    <Company>Indivisual</Company>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="geekcode.helper.model" Version="1.0.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

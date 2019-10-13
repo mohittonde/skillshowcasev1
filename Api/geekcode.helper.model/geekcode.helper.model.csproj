@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>geekcode.helper.model</PackageId>
+    <Version>1.0.0.4</Version>
+    <Authors>tondem</Authors>
+    <Company>Indivisual</Company>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>

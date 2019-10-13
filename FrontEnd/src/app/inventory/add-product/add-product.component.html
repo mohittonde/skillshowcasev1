@@ -1,0 +1,20 @@
+<p>add-product works!</p>
+<p>add-product works!</p>
+<form [formGroup]="addProduct" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+       <input matInput placeholder="name" formControlName="name" type="text">
+       <mat-error *ngIf="name.errors && name.errors['required']"> name is required</mat-error>
+       <mat-error *ngIf="name.errors && name.errors['minlength']"> min length is 3</mat-error>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+            <input matInput placeholder="amount" formControlName="amount" type="text">
+    </mat-form-field>
+    <br>
+    <span>
+     <button matButton [disabled]="addProduct.invalid" type="submit">Submit</button>        
+    </span>
+    
+</form>
+<br>
+<span>{{addProduct.errors |json}}</span>

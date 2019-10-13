@@ -1,0 +1,28 @@
+<mat-sidenav-container class="example-container" [hasBackdrop]="true" >
+    <mat-sidenav #drawer [mode]="'side'"  [(opened)]="opened" >I'm a drawer</mat-sidenav>
+<mat-sidenav-content>
+ <div class="container" > 
+<div class="product-list-container" *ngFor="let product of products | async" >
+<!-- <mat-grid-list role="list" cols="2" rowHeight="200px" gutterSize="10px">  
+  <mat-grid-tile role="list-item" > -->
+    <mat-card>
+      <mat-card-content [routerLink]="['product',product.id]">
+       <mat-card-content>{{ product.name }}</mat-card-content>
+       <mat-card-content>
+       Lorem Ipsum is simply dummy text of the printing and -
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </mat-card-content>
+      </mat-card-content>
+    </mat-card>
+  <!-- </mat-grid-tile>
+</mat-grid-list> -->
+</div> </div>
+</mat-sidenav-content>
+</mat-sidenav-container>

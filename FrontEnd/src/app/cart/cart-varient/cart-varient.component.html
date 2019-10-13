@@ -1,0 +1,8 @@
+<mat-grid-tile [formGroupName]="variantForName">
+        <mat-label>{{variant.displayValue}}</mat-label>
+        <mat-form-field>
+                <mat-select placeholder="Select {{variant.displayValue}}" [formControlName]="variant.name"  >
+                  <mat-option *ngFor="let option of variant.options" value="option.id">{{option.displayValue}}</mat-option>
+                </mat-select>
+        </mat-form-field>
+</mat-grid-tile>

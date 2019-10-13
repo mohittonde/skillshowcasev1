@@ -1,0 +1,19 @@
+<ng-template>
+  <mat-card class="example-container" [formGroupName]="product.id">
+    <mat-form-field>
+      <input matInput formControlName="name" placeholder="Input" />
+    </mat-form-field>
+    <mat-grid-list>
+      <ng-container
+        formArrayName="variants"
+        *ngFor="let variant of cartItemFormGroup.get('variants'); let i = index"
+      >
+        <app-cart-varient
+          [variantForName]="i"
+          [variant]="product.variants[i]"
+          [(variantForm)]="variant"
+        ></app-cart-varient>
+      </ng-container>
+    </mat-grid-list>
+  </mat-card>
+</ng-template>
