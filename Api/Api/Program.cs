@@ -18,7 +18,7 @@ namespace Api
         {
            //CreateWebHostBuilder(args).Build().Run();
             var host = new WebHostBuilder().UseKestrel().UseIISIntegration().UseStartup<Startup>()
-                .UseUrls("https://localhost:4000")
+                .UseUrls("https://localhost:5000")
             .ConfigureAppConfiguration((hostingContext, config) =>
             {
                 var env = hostingContext.HostingEnvironment;
