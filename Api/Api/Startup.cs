@@ -15,6 +15,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.EntityFrameworkCore;
 using geekcode.helper.entitycore;
+using Microsoft.Extensions.Hosting;
 
 namespace Api
 {
@@ -36,17 +37,20 @@ namespace Api
                 // Pass Accept heard from client side to content negitaiton to return write format.
                 option.RespectBrowserAcceptHeader = true; // false by default
                 //Below are two format we suport now, Json and XML , user can use one using negotiation.
-            }).AddApiExplorer().AddJsonFormatters().AddXmlSerializerFormatters();
+            }).AddApiExplorer().AddXmlSerializerFormatters();
             //services.AddJWTBearerHandler(this.GetTokenSetting(services));
             
-            services.AddSwaggerGen(c =>c.SwaggerDoc("v1", new Info() { Title="MY Api", Version="V1" }));
-            services.AddSqlDB(this.Configuration, "SqlDbContext");
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+            //services.AddSqlDB(this.Configuration, "SqlDbContext");
 
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -66,11 +70,12 @@ namespace Api
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
             });
 
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            //app.UseMvc();
            // app.UseAuthentication();
         }
 

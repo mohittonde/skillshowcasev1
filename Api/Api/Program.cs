@@ -43,7 +43,7 @@ namespace Api
             using (var scope = hostbuild.Services.CreateScope())
             {
                 var provicder = scope.ServiceProvider;
-                DbInitilizer.Intilized(provicder.GetRequiredService<SqlDBContext>());
+               // DbInitilizer.Intilized(provicder.GetRequiredService<SqlDBContext>());
             }
 
             hostbuild.Run();

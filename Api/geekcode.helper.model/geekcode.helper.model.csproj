@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <PackageId>geekcode.helper.model</PackageId>
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.5</Version>
     <Authors>tondem</Authors>
     <Company>Indivisual</Company>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

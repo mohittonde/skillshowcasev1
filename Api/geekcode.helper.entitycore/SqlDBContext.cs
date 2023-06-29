@@ -85,11 +85,6 @@ namespace geekcode.helper.entitycore
 
             }
 
-            if (!dbbContext.Dummyusers.Any())
-            {
-                dbbContext.AddandCommit<AuthUser>(new AuthUser() { Username = "mohit",Password="mohit123" });
-            }
-
             dbbContext.SaveChanges();
 
         }
